@@ -1,4 +1,16 @@
-I developed a dynamic Feedback Response Web Application utilizing HTML, CSS, and Servlet for the frontend and backend, with MySQL as the database. This project allowed me to seamlessly integrate user interface design with server-side logic, resulting in a responsive and efficient application.
+# Feedback_Response
+This is a dynamic Feedback Response Web Application in java.
+
+## Files 
+* index.jsp : Contains HTML Body of Feedback Response Sheet.
+* proj.css : Contains CSS Body of Feedback Response Sheet
+* response.java : Contains HttpServlet and JDBC(Java DataBase Connectivity) with mySQL DataBase.
+
+# How to Run 
+1. Make sure you have IDE with JDK and Tomcat Apache installed
+2. Clone this repository
+   
+
 
 
 
