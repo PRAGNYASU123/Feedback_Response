@@ -35,7 +35,7 @@ public class response extends HttpServlet {
             return;
         }
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/feedback_response", "root", "Pragnyasu7978@");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/feedback_response", "root", "Enter your password");
              PreparedStatement ps = connection.prepareStatement(INSERT_QUERY)) {
 
             ps.setString(1, name);
